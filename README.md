@@ -29,10 +29,13 @@ All the files in this repository are the final results produced by these inquiri
 
 
 ## Result
-GPT3.5 version don't work 😿
+GPT3.5 version don't work 😿  
 -> some error with laravel
+
 GPT4 version work 💪
+```
 yarn install
 yarn run start
+```
 
 Live version available here : https://eddymontus.fr/pagination-4/
