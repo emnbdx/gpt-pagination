@@ -4,7 +4,7 @@ $(document).ready(() => {
   
   function fetchData(page) {
     const itemsPerPage = 3;
-    $.getJSON(`http://127.0.0.1:3000/api/items?page=${page}&itemsPerPage=${itemsPerPage}`, (data) => {
+    $.getJSON(`api/items?page=${page}&itemsPerPage=${itemsPerPage}`, (data) => {
       renderData(data.items);
       renderPagination(data.totalItems, itemsPerPage, page);
     });
